@@ -41,7 +41,7 @@
             </div>
           </div>
     </header>
-    <main>
+    <main class="container mx-auto">
         <section class="container mx-auto my-14">
             <div class="carousel w-full h-[600px]">
                 <div id="slide1" class="carousel-item relative w-full bg-no-repeat bg-cover rounded-lg bg-blend-overlay" style="background-image: url(./images/banner1.png), linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);">
@@ -91,6 +91,29 @@
               </div>
 
         </section>
+          <div class="container bg-white rounded-2xl shadow-md py-12 px-7 flex justify-between w-4/5 mx-auto relative -mt-32 mb-36">
+            <div class="text-center">
+              <img src="./images/fruit1.png" alt="">
+              <h3>Strawberry</h3>
+            </div>
+            <div class="text-center">
+              <img src="./images/fruit2.png" alt="">
+              <h3>Strawberry</h3>
+            </div>
+            <div class="text-center">
+              <img src="./images/fruit3.png" alt="">
+              <h3>Strawberry</h3>
+            </div>
+            <div class="text-center">
+              <img src="./images/fruit4.png" alt="">
+              <h3>Strawberry</h3>
+            </div>
+            <div class="text-center">
+              <img src="./images/fruit5.png" alt="">
+              <h3>Strawberry</h3>
+            </div>
+
+          </div>
         <section class="container mx-auto">
             <div class="flex justify-between items-center">
             <div class="text-left">
@@ -133,7 +156,7 @@
             </div>
             <div class="flex justify-between mx-auto">
                 <div class="text-center border py-12 px-20 rounded-lg">
-                    <img src="./images/fruit1.png" alt="">
+                    <img src="./images/fruit6.png" alt="">
                     <h3 class="text-2xl my-7">12.90$ - 18.85$</h3>
                     <hr>
                     <p class="my-6">Apple</p>
@@ -150,14 +173,40 @@
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
                     </div><br>
-                    <button class="text-red-600 font-bold text-xl">Details</button>
+                    <button class="text-[#059862] text-2xl" onclick="my_modal_5.showModal()">Details</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <form method="dialog" class="modal-box">
+                    <div class="w-full text-center py-12 rounded-xl">
+                      <img class="mx-auto" src="./images/fruit6.png" alt="">
+                      <h3 class="text-2xl font-bold mt-12">12.90$ - 18.85$</h3>
+                      <p>Apples</p>
+                    <div class="rating rating-lg rating-half w-36 py-6">
+                      <input type="radio" name="rating-09" class="rating-hidden" />
+                      <input type="radio" name="rating-09" class="bg-red-600 text-1xl mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-1" checked />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-09" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                    </div>
+                    <div class="modal-action flex justify-center">
+          <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn border-[#059862] text-[#059862]">Close</button>
+                      <button class="btn bg-[#059862] text-white">Buy Now</button>
+                    </div>
+      </form>
+                  </dialog>
                     
                 </div>
                 <div class="text-center border py-12 px-20 rounded-lg">
-                    <img src="./images/fruit2.png" alt="">
+                    <img src="./images/fruit7.png" alt="">
                     <h3 class="text-2xl my-7">12.90$ - 18.85$</h3>
                     <hr>
-                    <p class="my-6">Apple</p>
+                    <p class="my-6">Orange</p>
                     <div class="rating rating-lg rating-half w-36 mb-8">
                       <input type="radio" name="rating-10" class="rating-hidden" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
@@ -171,14 +220,40 @@
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
                     </div><br>
-                    <button class="text-red-600 font-bold text-xl">Details</button>
+                    <button class="text-[#059862] text-2xl" onclick="my_modal_6.showModal()">Details</button>
+            <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+            <form method="dialog" class="modal-box">
+            <div class="w-full text-center py-12 rounded-xl">
+              <img class="mx-auto" src="./images/fruit7.png" alt="">
+              <h3 class="text-2xl font-bold mt-12">11.45$ - 16.85$</h3>
+              <p>Orange</p>
+            <div class="rating rating-lg rating-half w-36 py-6">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="bg-red-600 text-1xl mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="modal-action flex justify-center">
+  <!-- if there is a button in form, it will close the modal -->
+              <button class="btn border-[#059862] text-[#059862]">Close</button>
+              <button class="btn bg-[#059862] text-white">Buy Now</button>
+            </div>
+</form>
+          </dialog>
                     
                 </div>
                 <div class="text-center border py-12 px-20 rounded-lg">
-                    <img src="./images/fruit3.png" alt="">
+                    <img src="./images/fruit8.png" alt="">
                     <h3 class="text-2xl my-7">12.90$ - 18.85$</h3>
                     <hr>
-                    <p class="my-6">Apple</p>
+                    <p class="my-6">Red Dragon</p>
                     <div class="rating rating-lg rating-half w-36 mb-8">
                       <input type="radio" name="rating-10" class="rating-hidden" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
@@ -192,14 +267,40 @@
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
                     </div><br>
-                    <button class="text-red-600 font-bold text-xl">Details</button>
+                    <button class="text-[#059862] text-2xl" onclick="my_modal_7.showModal()">Details</button>
+            <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
+            <form method="dialog" class="modal-box">
+            <div class="w-full text-center py-12 rounded-xl">
+              <img class="mx-auto" src="./images/fruit8.png" alt="">
+              <h3 class="text-2xl font-bold mt-12">18.35$ - 25.75$</h3>
+              <p>Red Dragon</p>
+            <div class="rating rating-lg rating-half w-36 py-6">
+              <input type="radio" name="rating-9" class="rating-hidden" />
+              <input type="radio" name="rating-9" class="bg-red-600 text-1xl mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-9" class="bg-red-600 mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="modal-action flex justify-center">
+  <!-- if there is a button in form, it will close the modal -->
+              <button class="btn border-[#059862] text-[#059862]">Close</button>
+              <button class="btn bg-[#059862] text-white">Buy Now</button>
+            </div>
+</form>
+          </dialog>
                     
                 </div>
                 <div class="text-center border py-12 px-20 rounded-lg">
-                    <img src="./images/fruit4.png" alt="">
+                    <img src="./images/fruit9.png" alt="">
                     <h3 class="text-2xl my-7">12.90$ - 18.85$</h3>
                     <hr>
-                    <p class="my-6">Apple</p>
+                    <p class="my-6">Banana</p>
                     <div class="rating rating-lg rating-half w-36 mb-8">
                       <input type="radio" name="rating-10" class="rating-hidden" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
@@ -213,7 +314,33 @@
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
                       <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
                     </div><br>
-                    <button class="text-red-600 font-bold text-xl">Details</button>
+                    <button class="text-[#059862] text-2xl" onclick="my_modal_8.showModal()">Details</button>
+                    <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+                    <form method="dialog" class="modal-box">
+                    <div class="w-full text-center py-12 rounded-xl">
+                      <img class="mx-auto" src="./images/fruit9.png" alt="">
+                      <h3 class="text-2xl font-bold mt-12">8.35$ - 15.75$</h3>
+                      <p>Banana</p>
+                    <div class="rating rating-lg rating-half w-36 py-6">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="bg-red-600 text-1xl mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" checked />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-red-600 mask mask-star-2 mask-half-2" />
+                    </div>
+                    <div class="modal-action flex justify-center">
+          <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn border-[#059862] text-[#059862]">Close</button>
+                      <button class="btn bg-[#059862] text-white">Buy Now</button>
+                    </div>
+        </form>
+                  </dialog>
                     
                 </div>
 
@@ -351,33 +478,32 @@
              </div>              
           </div>
         </section>
-        <footer>
-          <footer class="footer footer-center p-20 bg-base-200 text-base-content rounded bg-[#121212] h-[526px] text-white">
-            <div class="flex text-white">
-              <img src="./images/logo.png" alt="">
-              <h1 class="text-4xl font-bold">Fruit Burst</h1>
-            </div>
-            <div class="grid grid-flow-col gap-14 text-xl">
-              <a class="link link-hover">Home</a> 
-              <a class="link link-hover">About us</a> 
-              <a class="link link-hover">Shop</a> 
-              <a class="link link-hover">All Fruits</a> 
-              <a class="link link-hover">Support</a> 
-              <a class="link link-hover">My Account</a>
-            </div> 
-            <div>
-              <div class="grid grid-flow-col gap-10 text-4xl">
-                <a><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a> 
-                <a><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></a> 
-                <a><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
-                <a><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
-                <a><i class="fa-brands fa-apple" style="color: #ffffff;"></i></a> 
-                <a><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
-              </div>
-            </div> 
-          </footer>
-        </footer>
+        
     </main>
+    <footer class="footer footer-center p-20 bg-base-200 text-base-content rounded bg-[#121212] h-[526px] text-white">
+      <div class="flex text-white">
+        <img src="./images/logo.png" alt="">
+        <h1 class="text-4xl font-bold">Fruit Burst</h1>
+      </div>
+      <div class="grid grid-flow-col gap-14 text-xl">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All Fruits</a> 
+        <a class="link link-hover">Support</a> 
+        <a class="link link-hover">My Account</a>
+      </div> 
+      <div>
+        <div class="grid grid-flow-col gap-10 text-4xl">
+          <a><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a> 
+          <a><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></a> 
+          <a><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
+          <a><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
+          <a><i class="fa-brands fa-apple" style="color: #ffffff;"></i></a> 
+          <a><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+        </div>
+      </div> 
+    </footer>
 
     
 </body>
